@@ -70,7 +70,9 @@ parts:
 
   subiquity:
     plugin: nil
-    source: https://github.com/canonical/subiquity.git
+    # source: https://github.com/canonical/subiquity.git
+    # XXX replaced with fork from Ondrej
+    source: https://github.com/kubiko/subiquity.git
     source-type: git
     source-branch: main
     override-build: |
