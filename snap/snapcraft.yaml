@@ -15,7 +15,7 @@ environment:
   PATH: $SNAP/usr/bin:$SNAP/usr/sbin:$PATH
   PYTHONHOME: $SNAP/usr
   PYTHON: $SNAP/usr/bin/python3
-  PYTHONPATH: $SNAP/usr/share/subiquity:$SNAP/usr/lib/python3/dist-packages:$SNAP/usr/lib/python3.11
+  PYTHONPATH: $SNAP/usr/share/subiquity:$SNAP/usr/lib/python3/dist-packages:$SNAP/usr/lib/python3.11:/usr/lib/python3/dist-packages
   PYTHONIOENCODING: utf-8
   SUBIQUITY_ROOT: $SNAP
   SNAP_CONFINEMENT: "strict"
